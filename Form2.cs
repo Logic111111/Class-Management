@@ -23,7 +23,7 @@ namespace WinFormsApp6
 
         }
 
-        // 🟢 Step 5: Generate Blocks  
+          
         public void GenerateBlocks()
         {
             panelBlocks.Controls.Clear();
@@ -80,7 +80,7 @@ namespace WinFormsApp6
         }
 
 
-        // 🟢 Step 6: Button Clicks  
+         
         private async void btnSort_Click(object sender, EventArgs e)
         {
             await blocks.BubbleSort(panelBlocks);
